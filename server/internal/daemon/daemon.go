@@ -11230,6 +11230,8 @@ func defaultArgsForProvider(cfg Config, provider string) []string {
 		args = cfg.CodebuddyArgs
 	case "qwen":
 		args = cfg.QwenArgs
+	case "droid":
+		args = cfg.DroidArgs
 	case "qwenpaw":
 		args = cfg.QwenpawArgs
 	default:
